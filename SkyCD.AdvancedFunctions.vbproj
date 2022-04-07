@@ -5,6 +5,9 @@
     <TargetFramework>net5.0</TargetFramework>
     <Authors>SkyCD</Authors>
     <Product />
+    <PackageProjectUrl>https://github.com/SkyCD/SkyCD.AdvancedFunctions.dll</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/SkyCD/SkyCD.AdvancedFunctions.dll</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
   </PropertyGroup>
 
   <ItemGroup>
