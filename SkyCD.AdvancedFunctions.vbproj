@@ -4,10 +4,13 @@
     <RootNamespace>SkyCD.AdvancedFunctions</RootNamespace>
     <TargetFramework>net5.0</TargetFramework>
     <Authors>SkyCD</Authors>
-    <Product />
+    <Product>SkyCD.AdvancedFunctions.dll</Product>
     <PackageProjectUrl>https://github.com/SkyCD/SkyCD.AdvancedFunctions.dll</PackageProjectUrl>
     <RepositoryUrl>https://github.com/SkyCD/SkyCD.AdvancedFunctions.dll</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
+    <PackageId>SkyCD.AdvancedFunctions.dll</PackageId>
+    <Company />
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <ItemGroup>
