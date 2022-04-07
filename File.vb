@@ -12,12 +12,12 @@ Public Class File
         Return ""
     End Function
 
-    Public Shared Function GetFileIcon(ByVal FileName As String) As Icon
-        Dim FL As New FileInfo(My.Application.Info.DirectoryPath & "\" & FileName)
+    Public Shared Function GetFileIcon(AppDirectoryPath As String, FileName As String) As Icon
+        Dim FL As New FileInfo(AppDirectoryPath & "\" & FileName)
         Dim Img As Icon = Nothing
         Try
             If Not FL.Exists Then FL.Create().Close()
-            Img = Icon.ExtractAssociatedIcon(My.Application.Info.DirectoryPath & "\" & FileName)
+            Img = Icon.ExtractAssociatedIcon(AppDirectoryPath & "\" & FileName)
             'Dim Img As Image = Image.FromHbitmap(Ico.ToBitmap.GetHbitmap)
             FL.Delete()
         Catch ex As Exception

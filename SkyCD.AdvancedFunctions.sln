@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32328.378
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "SkyAdvancedFunctions", "SkyAdvancedFunctions.vbproj", "{A571A7FF-8001-43E3-A1F2-AD0136A6F9FE}"
+Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "SkyCD.AdvancedFunctions", "SkyCD.AdvancedFunctions.vbproj", "{F3806544-7EEC-4447-A56B-0C33EB1B377A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{A571A7FF-8001-43E3-A1F2-AD0136A6F9FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A571A7FF-8001-43E3-A1F2-AD0136A6F9FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A571A7FF-8001-43E3-A1F2-AD0136A6F9FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A571A7FF-8001-43E3-A1F2-AD0136A6F9FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3806544-7EEC-4447-A56B-0C33EB1B377A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3806544-7EEC-4447-A56B-0C33EB1B377A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3806544-7EEC-4447-A56B-0C33EB1B377A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3806544-7EEC-4447-A56B-0C33EB1B377A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {64E55744-7C04-4021-85EB-C5F838E97E08}
+		SolutionGuid = {A06B802B-CA13-4886-9DDB-5D6261F544F2}
 	EndGlobalSection
 EndGlobal
